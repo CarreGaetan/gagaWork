@@ -1,0 +1,21 @@
+.InfosContainer {
+    width: fit-content;
+    position: relative;
+    border-radius: 25px;
+    
+    & img {
+        border-radius: 25px;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+
+    & p {
+        position: absolute;
+        top: 0px;
+        right: 80px;
+        font-size: 28px;
+        font-weight: 500;
+        color: black;
+    }
+}
